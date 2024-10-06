@@ -1,0 +1,334 @@
+STAGE 3: RENAL CANCER TREATMENT TARGETTING THE CDK1 PROTEIN USING PHYTOCHEMICALS FROM PANAX GINSENG PLANT
+
+Authors: @Qmeenat, @Justjpearl, @ Emmanuel, @Victoria63 @Achiever01
+
+**Renal Cancer and CDK1**
+
+Renal cancer is the most common malignant tumor of the kidney that starts in the cells of the kidney (1). A promising target for this cancer treatment is Cyclin-Dependent Kinase 1 (CDK1) protein involved in cell cycle regulation (2). The overexpression and hyperactivation of CDK1 have been associated with the uncontrolled proliferation of renal cancer cells so inhibiting the protein may result in cell cycle arrest, providing a therapeutic advantage (3).
+
+Panax ginseng
+
+Panax ginseng is a medicinal plant known for its potent bioactive compounds that have demonstrated antitumor, anti-inflammatory, and antioxidant properties in various cancer studies (4, 5). Our study explores the therapeutic potential of Panax ginseng against renal cancer through interaction with CDK1proteins. We evaluate the molecular docking of phytochemicals from Panax ginseng with CDK1 to assess their potential as CDK1 inhibitors in renal cancer treatment.
+
+                                                            Phytochemical Library
+
+A total of 55 phytochemicals from the plant were retrieved from published literature and their structures were obtained from the PubChem library. The 2D structures (SDF format) were downloaded from the PubChem library and were converted to 3D structures (PDB format) using the Open Babel website. The Phytochemicals are β-sitosterol, Stigmasterol, Protopanaxadiol ginsenosides, Protopanaxatriol ginsenosides, Ocotillol, Oleanolic acid, Naringenin, Gentisic acid, Chlorogenic acid, Catechin, Rutin, Ferulic acid, p-Hydroxybenzoic acid, Kaempferol, m-coumaric acid, p-coumaric acid, Quercetin, Morin, Quercitrin, Myricetin, Apigenin, Epicatechin, 6-acetyl ginsenoside-Rg3, Ginsenoside-Rg18, Ginsenoside-Rs11, Ginsenoside-Re7, Ginsenosides Rg1, Ginsenosides Rg2, Ginsenosides Rk1, Ginsenosides Re, Ginsenosides Rf, Ginsenosides Rh1, Ginsenosides Rh2, Ginsenosides Rb2, Ginsenoside Rg3, Salicylic acid, Ginsenoside CK, Ginsenoside F2, Oleic acid, Pantothenic acid, Linolenic acid, Menadione, Cobalamin, Niacin, Citric acid, Glucaric acid, Propanedioic acid, Dehydroascorbate, Raffinose, Glutamic acid, dl-Glutamine, Ginsenosides Rb1, Squalene, Hexacosane, Guanosine
+
+Protein Structure
+
+The Cyclin-dependent Kinase 1 (CDK1) was selected on the cancer page of the Human Protein Atlas due to its high unfavorable prognosis for Renal Cancer. Its protein structure was downloaded from the RCSB Protein data bank website. The CDK1 protein structure with PDB ID of 6GU6 (CDK1/Cks2 in complex with Dinaciclib) was downloaded.
+
+<!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1046" type="#_x0000_t75"
+ style='width:361.5pt;height:3in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)<!--[endif]-->
+
+ACTIVE SITES
+
+The active sites of the protein were identified using the CASTp computational software which shows the sequence MET, TYR, THR, LYS, ILE, GLY, GLU, ARG, HIS, GLN, LEU, SER, VAL, PRO, PHE, ASP and ALA. They were they visualized using the PyMol software.
+
+ 
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_1"
+ o:spid="_x0000_i1045" type="#_x0000_t75" style='width:464.25pt;height:277.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)<!--[endif]-->
+
+ 
+
+MOLECULAR DOCKING
+
+MGL tools, Autodock 4 software and Autodock vina were downloaded and used to perform the molecular docking of our protein and Phytochemicals. The autodock 4 was used to prepare and convert our protein from the PDB format into the PDBQT format. Firstly, the Dinaciclib ligand (1QK) and water molecules were deleted from the protein, missing atoms were checked, and repaired. Polar hydrogen bonds and Kollman charges were added after which the protein was converted to the PDBQT format. The Autodock 4 was also used to prepare the converted 3D structures of the phytochemicals for docking and conversion to the PDBQT format. The autodock 4 was also used to make grid box. The Autodock vina program was used to dock the protein with our phytochemicals. The energy\_range was set to be 4 and exhaustiveness 8. The result gives 9 binding affinity for each phyto with the first one being the highest. The output product of the vina docking and the protein structure were then visualized on Pymol.
+
+ 
+
+ 
+
+RESULT
+
+50 phytochemicals were docked with our protein and visualized on Pymol but 10 with the highest affinity have been selected for this result.  
+
+<!--[if !supportLists]-->**1.      **<!--[endif]-->**Ginsenoside F2**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_11"
+ o:spid="_x0000_i1044" type="#_x0000_t75" style='width:292.5pt;height:171pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_13"
+ o:spid="_x0000_i1043" type="#_x0000_t75" style='width:221.25pt;height:146.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image007.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)<!--[endif]-->
+
+<!--[if !supportLists]-->**2.      **<!--[endif]-->**Ginsenoside Rg3**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_15"
+ o:spid="_x0000_i1042" type="#_x0000_t75" style='width:272.25pt;height:159pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image009.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_17"
+ o:spid="_x0000_i1041" type="#_x0000_t75" style='width:229.5pt;height:147pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image011.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)<!--[endif]-->
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<!--[if !supportLists]-->**3.      **<!--[endif]-->**Apigenin**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_4"
+ o:spid="_x0000_i1040" type="#_x0000_t75" style='width:301.5pt;height:126pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image013.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_6"
+ o:spid="_x0000_i1039" type="#_x0000_t75" style='width:214.5pt;height:129.75pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)<!--[endif]-->
+
+<!--[if !supportLists]-->**4.      **<!--[endif]-->**Epicatechin**
+
+<!--[if gte vml 1]><v:shape
+ id="Picture_x0020_7" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:310.5pt;
+ height:129.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape
+ id="Picture_x0020_9" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:228.75pt;
+ height:129.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)<!--[endif]-->
+
+ 
+
+<!--[if !supportLists]-->**5.      **<!--[endif]-->**Kaempferol**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_18"
+ o:spid="_x0000_i1036" type="#_x0000_t75" style='width:279.75pt;height:117pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_20"
+ o:spid="_x0000_i1035" type="#_x0000_t75" style='width:238.5pt;height:151.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg)<!--[endif]-->
+
+<!--[if !supportLists]-->**6.      **<!--[endif]-->**Quercitrin**
+
+<!--[if gte vml 1]><v:shape
+ id="Picture_x0020_22" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:192.75pt;
+ height:150.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image025.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image026.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_21"
+ o:spid="_x0000_i1033" type="#_x0000_t75" style='width:210pt;height:132pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image027.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image028.jpg)<!--[endif]-->
+
+<!--[if !supportLists]-->**7.      **<!--[endif]-->**Guanosine**
+
+<!--[if gte vml 1]><v:shape
+ id="Picture_x0020_23" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:242.25pt;
+ height:135pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image029.png"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image030.png)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_25"
+ o:spid="_x0000_i1031" type="#_x0000_t75" style='width:231pt;height:142.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image031.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image032.jpg)<!--[endif]-->
+
+<!--[if !supportLists]-->**8.      **<!--[endif]-->**Menadione**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_26"
+ o:spid="_x0000_i1030" type="#_x0000_t75" style='width:246.75pt;height:2in;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image033.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image034.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_28"
+ o:spid="_x0000_i1029" type="#_x0000_t75" style='width:253.5pt;height:160.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image035.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image036.jpg)<!--[endif]-->
+
+ 
+
+<!--[if !supportLists]-->**9.      **<!--[endif]-->**Indole-3-acetic acid**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_30"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:469.5pt;height:105pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image037.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image038.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_32"
+ o:spid="_x0000_i1027" type="#_x0000_t75" style='width:261pt;height:171pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image039.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image040.jpg)<!--[endif]-->
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<!--[if !supportLists]-->**10.  **<!--[endif]-->**p-coumaric acid**
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_33"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:428.25pt;height:179.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image041.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image042.jpg)<!--[endif]-->
+
+<!--[if gte vml 1]><v:shape id="Picture_x0020_35"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:273.75pt;height:170.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image043.jpg"
+  o:title=""/>
+</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/COMPUTER/AppData/Local/Temp/msohtmlclip1/01/clip_image044.jpg)<!--[endif]-->
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+REFERENCES
+
+<!--[if !supportLists]-->1.      <!--[endif]-->Eisenberger CF, Schoenberg M, Enger C, Hortopan S, Shah S, Chow N-H, Marshall FF, Sidransky D. Diagnosis of renal cancer by molecular urinalysis. Journal of the National Cancer Institute. 1999;91(23):2028-32.
+
+<!--[if !supportLists]-->2.      <!--[endif]-->Li H, Zheng P, Li Z, Han Q, Zhou B, Wang X, Wang K. NCAPG promotes the proliferation of renal clear cell carcinoma via mediating with CDK1. Disease markers. 2022;2022(1):6758595.
+
+<!--[if !supportLists]-->3.      <!--[endif]-->Sager RA, Backe SJ, Ahanin E, Smith G, Nsouli I, Woodford MR, Bratslavsky G, Bourboulia D, Mollapour M. Therapeutic potential of CDK4/6 inhibitors in renal cell carcinoma. Nature Reviews Urology. 2022;19(5):305-20.
+
+<!--[if !supportLists]-->4.      <!--[endif]-->Jakaria M, Haque ME, Kim J, Cho D-Y, Kim I-S, Choi D-K. Active ginseng components in cognitive impairment: Therapeutic potential and prospects for delivery and clinical study. Oncotarget. 2018;9(71):33601.
+
+<!--[if !supportLists]-->5.      <!--[endif]-->Meng F, Li Z. Characterization, cytotoxicity and anti-human renal cell carcinoma efficacies of copper nanoparticles green-synthesized by Panax ginseng. Inorganic Chemistry Communications. 2024;162:112263.
+
+<!--[if !supportLists]-->6.      <!--[endif]-->Lee, J. W., Choi, B. R., Kim, Y. C., Choi, D. J., Lee, Y. S., Kim, G. S., ... & Lee, D. Y. (2017). Comprehensive profiling and quantification of ginsenosides in the root, stem, leaf, and berry of Panax ginseng by UPLC-QTOF/MS. Molecules, 22(12), 2147.
+
+<!--[if !supportLists]-->7.      <!--[endif]-->Ratan, Z. A., Haidere, M. F., Hong, Y. H., Park, S. H., Lee, J. O., Lee, J., & Cho, J. Y. (2021). Pharmacological potential of ginseng and its major component ginsenosides. Journal of ginseng research, 45(2), 199-210.
+
+<!--[if !supportLists]-->8.      <!--[endif]-->Shin, B. K., Kwon, S. W., & Park, J. H. (2015). Chemical diversity of ginseng saponins from Panax ginseng. Journal of ginseng research, 39(4), 287-298.
+
+<!--[if !supportLists]-->9.      <!--[endif]-->Lee, D. G., Lee, J., Kim, K. T., Lee, S. W., Kim, Y. O., Cho, I. H., Kim, H. J., Park, C. G., & Lee, S. (2018). High-performance liquid chromatography analysis of phytosterols in Panax ginseng root grown under different conditions. Journal of Ginseng Research, 42(1), 16-20. <https://doi.org/10.1016/j.jgr.2016.10.004>
+
+<!--[if !supportLists]-->10.  <!--[endif]-->Yang, Y., Ju, Z., Yang, Y., Zhang, Y., Yang, L., & Wang, Z. (2021). Phytochemical analysis of Panax species: a review. Journal of Ginseng Research, 45(1), 1-21. <https://doi.org/10.1016/j.jgr.2019.12.009>
+
+<!--[if !supportLists]-->11.  <!--[endif]-->Chung, I. M., Lim, J. J., Ahn, M. S., Jeong, H. N., An, T. J., & Kim, S. H. (2016). Comparative phenolic compound profiles and antioxidative activity of the fruit, leaves, and roots of Korean ginseng (Panax ginseng Meyer) according to cultivation years. Journal of Ginseng Research, 40(1), 68-75.
+
+<!--[if !supportLists]-->12.  <!--[endif]-->Kim, J. S. (2016). Investigation of phenolic, flavonoid, and vitamin contents in different parts of Korean ginseng (Panax ginseng C.A. Meyer). Preventive Nutrition and Food Science, 21(3), 263-270. <https://doi.org/10.3746/pnf.2016.21.3.263>
+
+<!--[if !supportLists]-->13.  <!--[endif]-->Lee, D. G., Lee, A. Y., Kim, K. T., Cho, E. J., & Lee, S. (2015). Novel dammarane-type triterpene saponins from Panax ginseng root. Chemical and Pharmaceutical Bulletin, 63(11), 927-934.
+
+<!--[if !supportLists]-->14.  <!--[endif]-->Kim, S. N., Ha, Y. W., Shin, H., Son, S. H., Wu, S. J., & Kim, Y. S. (2007). Simultaneous quantification of 14 ginsenosides in Panax ginseng CA Meyer (Korean red ginseng) by HPLC-ELSD and its application to quality control. Journal of Pharmaceutical and Biomedical Analysis, 45(1), 164-170.
+
+<!--[if !supportLists]-->15.  <!--[endif]-->Park, T. Y., Hong, M., Sung, H., Kim, S., & Suk, K. T. (2017). Effect of Korean red ginseng in chronic liver disease. Journal of Ginseng Research, 41(4), 450-455.
+
+<!--[if !supportLists]-->16.  <!--[endif]-->Liu, J., Jiang, R., Zhou, J., Xu, X., Sun, Z., Li, J., Chen, X., Li, Z., Yan, X., Zhao, D., Zheng, Z., & Sun, L. (2021). Salicylic acid in ginseng root alleviates skin hyperpigmentation disorders by inhibiting melanogenesis and melanosome transport. European Journal of Pharmacology, 910, 174458. <https://doi.org/10.1016/j.ejphar.2021.174458>
+
+<!--[if !supportLists]-->17.  <!--[endif]-->Sharma, A., & Lee, H. J. (2020). Ginsenoside compound K: insights into recent studies on pharmacokinetics and health-promoting activities. Biomolecules, 10(7), 1028. <https://doi.org/10.3390/biom10071028>
+
+<!--[if !supportLists]-->18.  <!--[endif]-->Kim, K., Kim, M. H., Kang, J. I., Baek, J. I., Jeon, B. M., Kim, H. M., ... & Jeong, W. I. (2024). Ginsenoside F2 restrains hepatic steatosis and inflammation by altering the binding affinity of liver X receptor coregulators. Journal of Ginseng Research, 48(1), 89-97.
+
+<!--[if !supportLists]-->19.  <!--[endif]-->Kim, S. H., Kim, S. Y., & Choi, H. K. (2018). Lipids in ginseng (Panax ginseng) and their analysis. Natural Product Sciences, 24(1), 1-12.
+
+<!--[if !supportLists]-->20.  <!--[endif]-->Kim, J. S. (2016). Investigation of phenolic, flavonoid, and vitamin contents in different parts of Korean ginseng (Panax ginseng C.A. Meyer). Preventive Nutrition and Food Science, 21(3), 263-270. <https://doi.org/10.3746/pnf.2016.21.3.263>
+
+<!--[if !supportLists]-->21.  <!--[endif]-->Chen, J., Yuan, Y., Ran, X., Guo, N., & Dou, D. (2018). Metabolomics analysis based on a UPLC-Q-TOF-MS metabolomics approach to compare Lin-Xia-Shan-Shen and garden ginseng. RSC Advances, 8(53), 30616-30623.
+
+<!--[if !supportLists]-->22.  <!--[endif]-->Liu, J., et al. (2017). GC-MS and LC-MS assay of metabolomics in Panax ginseng. J Pharm Biomed Anal, 135, 176-185. doi: 10.1016/j.jpba.2016.12.026
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
